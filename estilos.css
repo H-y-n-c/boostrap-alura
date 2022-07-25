@@ -26,10 +26,10 @@ header h1 {
     padding: 20px;
     width: 80%;
     border-radius: 8px;
-    position:absolute;
-    top:50%;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .titulo-depoimentos {
@@ -58,4 +58,12 @@ footer {
 
 footer address:last-child {
     margin-bottom: 0;
+}
+
+
+@media(min-width: 768px) {
+    .projetos-responsivo {
+        width: 50%;
+        float: left;
+    }
 }
